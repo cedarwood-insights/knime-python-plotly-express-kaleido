@@ -17,6 +17,12 @@ The Python code used to configure the Python View node in the workflow is availa
 Naturally you will need to have access to the KNIME Analytics Platform application.
 It can be downloaded from [here](https://www.knime.com/knime-analytics-platform).
 
+You will also need to set up the KNIME Python Integration extension. Here is the [KNIME Python Integration Guide](https://docs.knime.com/latest/python_installation_guide).
+
+Finally you will also need to install the [Plotly](https://plotly.com/python/), [Plotly Express](https://plotly.com/python/plotly-express/)* and [Kaleido](https://pypi.org/project/kaleido/) libraries. Please refer to my [Medium article](https://medium.com/towards-data-science/extending-knime-python-integration-with-plotly-express-and-kaleido-5c306074a5ca) for guidance.
+
+(*) Note: the article was originally published in February 2021. Since then the Plotly Express library has been merged with the main Plotly library.
+
 # Comments and Questions
 More than happy to respond to comments and answer questions. Please feel free to drop me a line.
 
